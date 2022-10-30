@@ -1,5 +1,11 @@
 const BASE_URL = "https://melon-potent-period.glitch.me";
 
+const linkToIndex = document.getElementById("toIndex_Link");
+linkToIndex.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    window.location.href = "./index.html";
+});
+
 async function sendDate(url, data) {
   try {
     const response = await fetch(url, {
