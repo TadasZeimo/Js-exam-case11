@@ -1,0 +1,60 @@
+* {
+  margin: 1% 0% 0% 2%;
+  background-color: rgb(22 78 99);
+  font-family: sans-serif;
+}
+
+.link_button {
+  margin: 0% 0% 2% 0%;
+  color: white;
+  background-color: rgb(30 58 138);
+  height: 40px;
+  width: 150px;
+  font-size: larger;
+}
+.info_tag {
+  color: white;
+}
+.info_tag2 {
+  color: white;
+  margin: 1% 0%;
+}
+
+#input_box {
+  background-color: rgb(30 58 138);
+  height: 30px;
+  width: 250px;
+  margin: 0% 0% 10px;
+  font-size: larger;
+  color: white;
+}
+
+#submit_button {
+  margin: 0% 0% 2% 0%;
+  color: white;
+  background-color: rgb(30 58 138);
+  height: 40px;
+  width: 150px;
+  font-size: larger;
+}
+#data_table {
+  color: white;
+  height: min-content;
+  width: 40%;
+}
+.data_thead {
+  text-align: left;
+}
+
+#data_tbody {
+  text-align: left;
+}
+
+.border {
+  border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+.delete_skill {
+  text-decoration: none;
+  color: rgb(11, 165, 226);
+}
